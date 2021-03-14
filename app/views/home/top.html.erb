@@ -1,0 +1,11 @@
+<div class = "main top-main">
+メモ一覧    
+</div>
+
+<div class="main memo-index">
+  <%= @memos.each do |memo| %>
+  <div class="memos-top-item">
+    <%= memo.content %>
+  </div>
+  <% end %>
+</div>
