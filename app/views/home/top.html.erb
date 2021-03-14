@@ -2,6 +2,10 @@
 メモ一覧    
 </div>
 
+<div>
+  <%= link_to("新規作成", "/new") %>
+</div>
+
 <div class="main memo-index">
   <%= @memos.each do |memo| %>
   <div class="memos-top-item">

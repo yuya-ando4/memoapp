@@ -3,5 +3,4 @@ class HomeController < ApplicationController
     @memos =Memo.all
   end
   
- 
 end
