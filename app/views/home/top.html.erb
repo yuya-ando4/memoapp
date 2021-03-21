@@ -7,9 +7,9 @@
 </div>
 
 <div class="main memo-index">
-  <%= @memos.each do |memo| %>
+  <% @memos.each do |memo| %>
   <div class="memos-top-item">
-    <%= memo.content %>
+    <%= link_to(memo.content, "/#{memo.id}/edit")%>
   </div>
   <% end %>
 </div>
